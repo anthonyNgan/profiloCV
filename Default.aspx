@@ -5,25 +5,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/freelancer.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
-    <title>Profilo</title>
+    <link href="css/freelancer.min.css" rel="stylesheet"/>
+    <meta name="google-site-verification" content="RMKeNuj0rjXMuXeZZadyVip2GIO7majgHYUvdvEZ9Zo"/>
+    <title>Web Development Profilo</title>
 </head>
+
 <body id="page-top" class="" style="">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Anthony Ngan</a>
-        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="">
           Menu
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -128,10 +131,10 @@
         <hr class="star-light">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p></p>
+            <p>*Agile Environment *Scrum Methodology</p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p></p>
+            <p>*HTML/CSS *Javascript</p>
           </div>
           <div class="col-lg-8 mx-auto text-center">
 
@@ -141,7 +144,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+   <section id="contact">
       <div class="container">
         <h2 class="text-center">Contact Me</h2>
         <hr class="star-primary">
@@ -520,7 +523,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -531,9 +534,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-    <script src="mail/contact_me.php"></script>
+    <script src="js/contact_me.js"></script>
+    
     <form id="form1" runat="server">
-        
     </form>
 </body>
 <!-- 
